@@ -13,5 +13,6 @@ axios.get(url)
     }
     let data: Article[];
     data = response.data;
+    data 
     console.log(data);
   })
