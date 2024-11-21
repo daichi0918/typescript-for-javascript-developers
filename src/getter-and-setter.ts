@@ -15,17 +15,17 @@ class MyNumberCard {
   private _owner: string;
   private _secretNumber: number;
 
-  constructor(owner: string, secretNumber: number ) {
+  constructor(owner: string, secretNumber: number) {
     this._owner = owner;
     this._secretNumber = secretNumber;
   }
 
   get owner() {
-    return this._owner
+    return this._owner;
   }
 
   set secretNumber(secretNumber: number) {
-    this._secretNumber = secretNumber
+    this._secretNumber = secretNumber;
   }
 
   debugPrint() {
@@ -42,4 +42,3 @@ console.log(card.owner);
 // card.secretNumber;
 // card._secretNumber;
 console.log(card.secretNumber);
-
